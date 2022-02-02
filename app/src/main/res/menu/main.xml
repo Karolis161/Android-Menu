@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- action button for search -->
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="Laiko skirtumas"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/Skaiciuoti"
+                android:title="Skaiciuoti skirtuma" />
+        </menu>
+        />
+    </item>
+    <!-- action button for refresh -->
+    <item android:title="Baigti"
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <!-- action button for copy -->
+
+</menu>
